@@ -7,6 +7,7 @@ console.log('全字符串排序：'+['Google','apple','Microsoft'].sort());	// G
 console.log('数字排序：'+[10,20,1,2].sort());	// 1,10,2,20；特别注意：数字会先转成字符串，再按ASCII排序；如果要实现按数字大小排序，只能自己写排序规则；
 
 // 2.自定义排序规则
+console.log('================== 2.自定义排序规则 ==================');
 var arr = [10, 20, 1, 2];
 var after_sort = arr.sort(function (x,y) {
 	if (x < y){
