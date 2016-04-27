@@ -56,16 +56,16 @@ console.log('fun3() = '+fun3());
 
 // 4.关键字rest
 console.log('\n================== 4.关键字rest =================='); // 版本不支持
-// function foo(a, b, ... rest) {
+// function foo(a, b, ...rest) {
 //     console.log('a = ' + a);
 //     console.log('b = ' + b);
 //     console.log(rest);
 // }
-// 	//
+
 // console.log(foo(1,2));	// undefined
 
 // 5.return‘陷阱’
-console.log('\n================== 4.关键字rest =================='); // 版本不支持
+console.log('\n================== 5.return‘陷阱’ =================='); // 版本不支持
 function fun_return1() {
 	return '来了，坐吧'
 }
